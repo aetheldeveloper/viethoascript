@@ -1,11 +1,11 @@
-local GITHUB_RAW_URL = ""
+local GITHUB_RAW_URL = "https://raw.githubusercontent.com/aetheldeveloper/viethoascript/refs/heads/main/venyxhub.lua"
 local AUTO_UPDATE_INTERVAL = 3600
 
 if not getgenv().__VenyxV5Loaded then
     getgenv().__VenyxV5Loaded = true
     task.spawn(function()
         pcall(function()
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/a40becae9d58ed4c969ab2f9d26f2f1b.lua"))()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/ff2f66df8811e8d694770d532d0a0d1f.lua"))()
         end)
     end)
 end
